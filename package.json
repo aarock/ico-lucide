@@ -1,0 +1,24 @@
+{
+  "name": "@aarock/ico-lucide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "author": "",
+  "license": "MIT",
+  "exports": {
+    "./*": "./dist/*.js",
+    "./*.js": "./dist/*.js"
+  },
+  "dependencies": {
+    "react-native-svg": "^15.1"
+  },
+  "devDependencies": {
+    "@types/node": ">=16",
+    "@types/react": ">=18"
+  },
+  "peerDependencies": {
+    "@aarock/ui-core": "*",
+    "react-native": "*",
+    "react": "*"
+  }
+}
