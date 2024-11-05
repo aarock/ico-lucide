@@ -9,6 +9,9 @@
     "./*": "./dist/*.js",
     "./*.js": "./dist/*.js"
   },
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "react-native-svg": "^15.1"
   },
